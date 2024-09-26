@@ -1,0 +1,103 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .custom-datepicker {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px 0;
+  }
+
+  .date-picker-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  
+  .button-container button {
+    flex: 1; 
+    margin: 0 5px; 
+  }
+  .selected-dates {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0; 
+}
+
+.date-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem; 
+}
+
+.remove-date {
+  background: none;
+  border: none;
+  color: #ff4d4d; 
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 0.5rem; 
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h4,
+  .add-event-button-container {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
